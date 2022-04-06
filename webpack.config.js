@@ -25,7 +25,7 @@ module.exports = {
       autoUpdate: 600000,
       ServiceWorker: {
         events: true,
-        entry: "./src/sw.template.js", // path.resolve(__dirname, "./src/sw.template.js"),
+        entry: "./src/sw.template.js",
       },
     }),
   ],
